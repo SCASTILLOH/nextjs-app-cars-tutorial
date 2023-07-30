@@ -30,7 +30,6 @@ export async function fetchCars(filters: FilterProps) {
   );
 
   const result = await response.json();
-
   return result;
 }
 
